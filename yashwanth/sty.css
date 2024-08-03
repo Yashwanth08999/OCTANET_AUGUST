@@ -1,0 +1,190 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+#main {
+  width: 100%;
+  min-height: 100vh;
+}
+.top {
+  width: 100%;
+  min-height: 60vh;
+  background-image: url(https://images.unsplash.com/photo-1500964757637-c85e8a162699?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: center;
+}
+.top .overlay {
+  position: relative;
+  width: 100;
+  min-height: inherit;
+  background-color: rgba(0, 0, 0, 0.301);
+}
+.text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  padding: 0 10vh;
+  color: white;
+  bottom: 5%;
+}
+.text h1 {
+  font-weight: 600;
+  font-size: 4vw;
+}
+.text .image {
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2f9e8780-1e9b-4920-85b8-bb5270cb1e1e/dfywkw4-20cb8644-3b29-4099-ab58-0fc477ab1724.jpg/v1/fill/w_1280,h_1703,q_75,strp/beautiful_anime_nature_house_landscape_by_nico2713_dfywkw4-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTcwMyIsInBhdGgiOiJcL2ZcLzJmOWU4NzgwLTFlOWItNDkyMC04NWI4LWJiNTI3MGNiMWUxZVwvZGZ5d2t3NC0yMGNiODY0NC0zYjI5LTQwOTktYWI1OC0wZmM0NzdhYjE3MjQuanBnIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.Hv8B9xySO1bekvKSK-xTaBQYDstZU7bv2LnDmDVobkg);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 200px;
+}
+#rtext {
+  display: flex;
+  width: 25;
+  align-items: center;
+  justify-content: space-between;
+}
+#rtext p {
+  font-size: 15px;
+}
+.bottom {
+  display: flex;
+  width: 100%;
+  min-height: 40vh;
+}
+.b1 {
+  width: 30%;
+  min-height: inherit;
+  background-image: url(https://i.pinimg.com/1200x/ea/c4/e4/eac4e4c4dd6ad2b1731e4143788f45b1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.b1 h1 {
+  text-align: center;
+  padding: 30px;
+  color: rgb(3, 37, 66);
+}
+.b1 p {
+  color: rgb(5, 34, 53);
+  text-align: center;
+  padding: 15px;
+}
+.b2 {
+  width: 30%;
+  min-height: inherit;
+  display: flex;
+  flex-direction: column;
+}
+.b2 .up {
+  width: 100%;
+  min-height: 20vh;
+  background-image: url(https://rukminim2.flixcart.com/image/850/1000/xif0q/poster/j/i/t/medium-anime-scenery-beautiful-nature-dreamworld-anime-aesthetic-original-imagkzhgbdv9xsgh.jpeg?q=90&crop=false);
+  background-size: cover;
+  background-position: center;
+}
+.b2 .up h1 {
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+.b2 .up p {
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+.b2 .down {
+  width: 100%;
+  min-height: 30vh;
+  background-image: url(https://pics.craiyon.com/2023-07-02/4c4e9ba130a1487896a328210728b43c.webp);
+  background-position: center;
+  background-size: cover;
+}
+.b2 .down .overlay {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  position: relative;
+  width: 100%;
+  min-height: 20vh;
+  background-color: rgba(255, 255, 255, 0.363);
+}
+.b3 {
+  width: 40%;
+  min-height: inherit;
+  background-image: url(https://static.vecteezy.com/system/resources/previews/030/663/704/non_2x/calming-anime-background-high-quality-free-photo.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.b3 .overlay {
+  justify-content: right;
+  position: relative;
+  margin-left: 50%;
+  width: 50%;
+  height: 100%;
+  padding: 4vw 3vh;
+}
+.b3 .overlay .p {
+  padding: 1.2vh;
+}
+
+@media (max-width: 700px) {
+  .rtext {
+    flex-direction: column;
+  }
+  .b3 .overlay {
+    width:100%;
+    margin-left: initial;
+  }
+}
+
+@media (max-width: 500px) {
+  .text {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .text h1 {
+    font-size: 5vh;
+  }
+  .text .image {
+    height: 200px;
+    width: 140px;
+  }
+  .rtext {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .rtext p {
+    margin-top: 10px;
+  }
+  icon {
+    margin-top: 10px;
+  }
+  .bottom {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .b1 {
+    width: 100%;
+    min-height: 30vh;
+  }
+  .b2 {
+    width: 100%;
+  }
+  .b2 .up {
+    min-height: 30vh;
+  }
+  .b3 {
+    width: 100%;
+    min-height: 30vh;
+    background-position: left;
+  }
+}
